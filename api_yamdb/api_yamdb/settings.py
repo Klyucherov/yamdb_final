@@ -3,7 +3,7 @@ from datetime import timedelta
 
 from dotenv import load_dotenv
 
-load_dotenv ()
+load_dotenv()
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -15,7 +15,8 @@ ALLOWED_HOSTS = [
     '158.160.24.146',
     'localhost',
     '127.0.0.1',
-    '*',]
+    '*',
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
