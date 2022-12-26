@@ -1,3 +1,6 @@
+![Yamdb Workflow Status](https://github.com/klyucherov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=push)
+
+
 Проект YaMDb собирает отзывы пользователей на произведения. Произведения делятся на категории:«Книги», «Фильмы», «Музыка». Список категорий  может быть расширен (например, можно добавить категорию «Изобразительное искусство» или «Ювелирка»).
 Настроика для приложения Continuous Integration и Continuous Deployment, реализация:
 - автоматический запуск тестов,
