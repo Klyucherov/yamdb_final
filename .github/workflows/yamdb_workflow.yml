@@ -63,7 +63,6 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           stack_file_name: docker-compose.yaml
           script: |
-            cd infra
             sudo docker pull klyucherov/yamdb_final
             sudo docker-compose stop
             sudo docker-compose rm web
