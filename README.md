@@ -19,7 +19,7 @@
 ### Клонируем репозиторий и и переходим в него:
 
 ```bash
-git clone git@github.com:themasterid/yamdb_final.git
+git clone https://github.com/Klyucherov/yamdb_final.git
 ```
 ```bash
 cd yamdb_final
